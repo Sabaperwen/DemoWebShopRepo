@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="compareProduct.DWS_Add_Products_From_CompareList_03_Test"/>
+      <class name="WishList.DWS_Add_Product_Into_Wishlist_08_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
