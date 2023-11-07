@@ -24,7 +24,7 @@ public class DWS_Remove_Product_From_Cart_07_Test extends BaseClass {
 		System.out.println("product is added");
 		cartpage.getShoppingCart().click();
 		System.out.println("clicked on shopping cart");
-		Thread.sleep(Duration.ofSeconds(5));
+		Thread.sleep(2000);
 		cartpage.getRemove().click();
 		System.out.println("clicked on remove box");
 		cartpage.getUpdatCart().click();
