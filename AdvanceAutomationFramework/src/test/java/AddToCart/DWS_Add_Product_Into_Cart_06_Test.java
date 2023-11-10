@@ -24,7 +24,7 @@ public class DWS_Add_Product_Into_Cart_06_Test extends BaseClass{
 		System.out.println("clicked on book");
 		cartpage.getAddToCart().click();
 		logger.log(Status.INFO, "clicked on add to cart");
-		Thread.sleep(Duration.ofSeconds(5));
+		
 		System.out.println("product added");
 		cartpage.getShoppingCart().click();
 		System.out.println("clicked on shopping cart");

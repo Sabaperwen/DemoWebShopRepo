@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AddToCart.DWS_Add_Product_Into_Cart_06_Test">
+      <class name="WishList.DWS_Add_Product_Into_Wishlist_08_Test">
         <methods>
           <include name="loginToApplication"/>
-          <include name="addToCart"/>
+          <include name="AddProductIntoWishlist"/>
           <include name="LoggOutFromApplication"/>
           <include name="tearDownTheBrowser"/>
           <include name="launchingBrowserAndNavigateToApp"/>
         </methods>
-      </class> <!-- AddToCart.DWS_Add_Product_Into_Cart_06_Test -->
+      </class> <!-- WishList.DWS_Add_Product_Into_Wishlist_08_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
