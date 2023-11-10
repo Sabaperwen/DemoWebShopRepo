@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import genericUtilities.BaseClass;
 import genericUtilities.ItestListnerUtility;
 @Listeners(ItestListnerUtility.class)
-public class Change_01_Test extends BaseClass {
+public class ChangeTo_01_Test extends BaseClass {
 @Test
 	public void change() {
 		System.out.println("changing");
