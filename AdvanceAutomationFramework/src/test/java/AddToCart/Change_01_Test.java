@@ -9,7 +9,7 @@ import genericUtilities.ItestListnerUtility;
 public class Change_01_Test extends BaseClass {
 @Test
 	public void change() {
-		// TODO Auto-generated method stub
+		System.out.println("changing");
 
 	}
 
