@@ -10,6 +10,7 @@ public class Change_01_Test extends BaseClass {
 @Test
 	public void change() {
 		System.out.println("changing");
+		System.out.println("new changing");
 
 	}
 
